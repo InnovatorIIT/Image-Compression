@@ -2,6 +2,8 @@
 This is my first AI/ML Project using unsupervised algorithm
 In this project we are using K-Means Algorithm for image compression by reducing the number of colours that occur in the image to only those that are most common in the image.
 K-Means algorithm is the method to automatically cluster similar data points togeather. It is a type of unsupervised learning algorithm where we dont have to train the model beforehand. It is an iterative procedure that guesses the intial centroids and refines the position of the centroids based on the mean value of the data points.
+
+Though we can directly using the scikit library, I have tried to do without using those libraries, so that we can get a better peek into the working of algorithm
 # How It Works
 In a straightforward 24-bit color representation of an image, each pixel is represented as three 8-bit unsigned integers (ranging from 0 to 255) that specify the red, green and blue intensity values. This encoding is often refered to as the RGB encoding. 
 Our image contains thousands of colors, and in this part of the exercise, you will reduce the number of colors to 4 colors.
